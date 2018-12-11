@@ -1,0 +1,33 @@
+/* CSS DOCUMENT */
+header {
+	text-align: left;
+	line-height: 1.6;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	border-radius: 10px;
+	font-family: 'Raleway', sans-serif;
+	}
+
+#main {
+ padding-left: 10px;
+ background-color: #E6F5EB;
+ border-radius: 10px;
+
+}
+
+#top {
+	text-align: center; 
+	background-image: linear-gradient(#4B93CF, #4BCF7D);
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+
+ }
+
+
+#footer {
+	background-image: linear-gradient(#E8F3F3, #85DDDD);
+	border-radius: 10px;
+	padding-left: 10px;
+}
