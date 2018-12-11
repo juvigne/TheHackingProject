@@ -6,10 +6,11 @@ $(document).ready(function() {
 } );
 
 //On ferme la popUp
-function close(){
+function closeDiag(){
   $( "#dialog" ).dialog('close');
 }
 //On redirige vers une autre page
 function newTab(){
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+  $( "#dialog" ).dialog('close');
 }
